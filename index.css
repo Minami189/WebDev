@@ -10,6 +10,30 @@ header{
     height: 132px;
     align-items: center;
     color:white;
+    position:sticky;
+    top:0px;
+    z-index: 5;
+}
+
+footer{
+    background-color: #838B58;
+    color: white;
+    height:132px;
+    bottom:0px;
+    width:100%;
+    font-family: Gantari;
+    line-height: 4px;
+    display:flex;
+    flex-direction: column;
+    padding-top:35px;
+}
+
+footer h3{
+    margin-left: 120px;
+}
+
+.devs{
+    font-weight: normal;
 }
 
 a{
@@ -50,12 +74,16 @@ nav a{
 
 .hero{
     margin-top: 40px;
-    height: 71vh;
+    height: 100vh;
     position:relative;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     
+}
+
+.herotitle{
+    margin-top: -250px;
 }
 
 .herotitle h1{
@@ -87,7 +115,7 @@ nav a{
 
 .hero img{
     height: 790px;
-    margin-top: -60px;
+    margin-top: -250px;
 }
 
 .hero button{
