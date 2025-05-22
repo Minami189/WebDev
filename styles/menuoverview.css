@@ -17,7 +17,7 @@ header{
     z-index: 5;
 }
 
-footer {
+.footer {
   background-color: #D1D2A6;
   color: #4b6b46;
   font-family: 'Arial', sans-serif;
