@@ -26,6 +26,7 @@ header{
   align-items: center;
   gap: 15px;
   padding-left: 30px;
+  padding-right: 30px;
   padding-top: 30px;
 }
 
@@ -50,19 +51,21 @@ header{
 }
 
 .footer-divider {
-  margin: 20px 0;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 10px;
   border: none;
   height: 1px;
   background-color: #86ab81;
-  padding-left: 30px;
 }
 
 .footer-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 75px;
-  padding-bottom: 30px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 30px;
 }
 
 .footer-column {
@@ -95,6 +98,7 @@ header{
   padding: 10px;
   font-size: 14px;
   padding-left: 60px;
+  padding-right: 60px;
 }
 
 .devs{
