@@ -15,21 +15,86 @@ header{
     z-index: 5;
 }
 
-footer{
-    background-color: #838B58;
-    color: white;
-    height:132px;
-    bottom:0px;
-    width:100%;
-    font-family: Gantari;
-    line-height: 4px;
-    display:flex;
-    flex-direction: column;
-    padding-top:35px;
+.footer {
+  background-color: #D1D2A6;
+  color: #4b6b46;
+  font-family: 'Arial', sans-serif;
 }
 
-footer h3{
-    margin-left: 120px;
+.footer-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.footer-logo {
+  width: 60px;
+  height: auto;
+}
+
+.footer-brand h2 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.footer-brand .campus {
+  color: #3f583b;
+}
+
+.footer-brand .crave {
+  color: #3f583b;
+  letter-spacing: 2px;
+}
+
+.footer-divider {
+  margin: 20px 0;
+  border: none;
+  height: 1px;
+  background-color: #86ab81;
+  padding-left: 30px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 75px;
+  padding-bottom: 30px;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li,
+.footer-column p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.footer-bottom {
+  background-color: #6f7844;
+  color: #f0f0d8;
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+  padding-left: 60px;
 }
 
 .devs{
@@ -56,11 +121,12 @@ a{
 
 #tcampus{
     font-family: Inter;
-    font-size: 32px;
+    font-size: 23px;
 }
 
 #tcrave{
     font-size: 37px;
+    font-family: Instrument Serif;
     font-weight: normal;
     letter-spacing: 4px;
 }
@@ -79,7 +145,6 @@ nav a{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    
 }
 
 .herotitle{
