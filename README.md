@@ -1,3 +1,2 @@
 # HELLO MGA NINJA
-
-# I like dick
+# Ninjas are cool
