@@ -110,6 +110,7 @@ header{
     padding-left: 75px;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 
 .devs{
@@ -152,24 +153,6 @@ nav a{
     margin-left:25px;
 }
 
-.hero{
-    margin-top: 40px;
-    height: 100vh;
-    position:relative;
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-    
-}
-
-.herotitle{
-    margin-top: -250px;
-}
-
-.herotitle h1{
-    margin:none;
-    line-height: 0px;
-}
 
 #hcampus{
     font-size: 106px;
@@ -213,11 +196,6 @@ button:hover{
     cursor: pointer;
 }
 
-#explorebtn{
-    background-color: #838B58;
-    color: #FFFFFD;
-}
-
 #aboutbtn{
     background-color: transparent;
     color: #383835;
@@ -252,31 +230,23 @@ button:hover{
   color: #383835;
 }
 
+.item {
+  position: relative;
+}
+
 .item-grid {
   display: grid;
-  grid-template-columns: repeat(4, 371px);
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px 40px;
   margin-bottom: 40px;
   justify-content: center;
 }
 
-.item-wrapper {
-  text-align: center;
-}
-
-.item img {
-  width: 371px;
-  height: 250px;
+.item-grid img {
+  width: 770px;
+  height: 450px;
   object-fit: cover;
   border-radius: 8px;
   display: block;
   margin: 0 auto;
-}
-
-.item-name {
-  margin-top: 8px;
-  font-size: 20px;
-  font-weight: 500;
-  color: #383835;
-  text-align: left;
 }

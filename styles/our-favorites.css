@@ -110,6 +110,7 @@ header{
     padding-left: 75px;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 
 .devs{
@@ -224,7 +225,7 @@ button:hover{
     margin-left: 30px;
 }
 
-#nav-favorites{
+#selected{
     background-color: #513F2E;
     padding: 12px 20px;
     border-radius: 5px;
