@@ -110,6 +110,10 @@ a{
     color:white;
 }
 
+.footer-column a{
+    text-decoration: none;
+    color:#464545;
+}
 #logo{
     margin-left: 25px;
 }
