@@ -226,7 +226,7 @@ button:hover{
   font-size: 40px;
   font-weight: bold;
   margin-left: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   color: #383835;
 }
 
@@ -238,11 +238,12 @@ button:hover{
     width: 370px;
     height: 250px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .item-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 371px);
   gap: 40px 40px;
   margin-bottom: 40px;
   justify-content: center;
