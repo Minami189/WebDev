@@ -69,52 +69,8 @@ nav a{
 }
 
 
-#hcampus{
-    font-size: 106px;
-    font-family: Inter;
-    color: #383835;
-}
-
-#hcrave{
-    font-size: 213px;
-    font-family: Instrument Serif;
-    font-weight: normal;
-    color:#383835;
-}
-
-.hero .hero1 pre{
-    margin-top: 0px;
-    padding: 0px;
-    font-family: Gantari;
-    font-size: 32px;
-    color:#383835;
-}
-
-
-.hero img{
-    height: 790px;
-    margin-top: -250px;
-}
-
-.hero button{
-    font-family: Inter;
-    font-weight: bold;
-    font-size: 24px;
-    padding:15px;
-    border-radius: 70px;
-    width:184px;
-    height:60px;
-    border:solid #798645 ;
-}
-
 button:hover{
     cursor: pointer;
-}
-
-#aboutbtn{
-    background-color: transparent;
-    color: #383835;
-    margin-left: 30px;
 }
 
 #selected{
@@ -145,25 +101,8 @@ button:hover{
   color: #383835;
 }
 
-.item {
-  position: relative;
-}
-
-.item-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 60px 40px;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-bottom: 40px;
-  justify-content: center;
-}
-
-.item-grid img {
-  width: 770px;
-  height: 450px;
-  object-fit: cover;
-  border-radius: 8px;
-  display: block;
-  margin: 0 auto;
+#location{
+    margin-left: 380px;
+    border-radius: 20px;
+    width: 1000px;
 }
