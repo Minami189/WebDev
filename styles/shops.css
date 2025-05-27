@@ -158,10 +158,13 @@ header{
 }
 
 #card h1{
+    padding-left: 2rem;
     font-size: 64px;
 }
 
 #card h2{
+    font-weight: 400;
+    padding-left: 2.2rem;
     font-size: 48px;
 }
 
@@ -200,6 +203,14 @@ header{
     color: #383835;
 }
 
+.title h1{
+  padding-left: 1.2rem;
+}
+
+.title-container h1{
+  padding-left: 3rem;
+}
+
 b.green{
     font-weight: bold;
     color:#838B58;
@@ -211,6 +222,7 @@ b.green{
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
+    padding: 0rem 4rem;
     row-gap: 1px;
     column-gap: 1px;
 }
