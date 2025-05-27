@@ -90,9 +90,9 @@ nav a{
 }
 
 .aboutsection4{
-    background-color: #82987E;
+    background-color: #FFF5D0;
     width:100%;
-    height: 350px;
+    height: 40rem;
     background-repeat: no-repeat;
     display:flex;
     margin: 0;
@@ -105,15 +105,34 @@ nav a{
     background-color: #82987E;
     padding: 2rem;
     border-radius: 20px;
-    font-size: 2em;
+    font-family: Inter;
+    font-size: 2rem;
     border: 2px solid;
+    margin-bottom: 5rem;
+}
+
+.aboutsection4 h3 {
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-family: Inter;
+    font-size: 56px;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 .aboutsection4 a{
     margin: 0;
     padding: 0;
-     text-decoration: none;
-     color:#e3eb9e;
+    text-decoration: none;
+    color:#FFF5D0;
+}
+
+.aboutsection4 pre{
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-family: Gantari;
+    font-size: 28px;
+    margin-bottom: 4rem;
 }
 
 .text{
@@ -131,6 +150,7 @@ nav a{
 
 .subhead{
     font-family: Inter;
+    text-align: center;
     color:white;
     font-size: 96px;
     width: 650px;
