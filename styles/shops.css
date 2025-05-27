@@ -231,32 +231,6 @@ b.green{
     color:#383835;
 }
 
-.specific{
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items:center;
-    align-items: center;
-    column-gap: 0;
-}
-
-.specific .item img{
-    width:370px;
-    height:250px;
-    object-fit: cover;
-}
-
-.specific .item{
-    height: 350px;
-    margin-top: 50px;
-}
-
-.specific .item h1{
-    font-size: 32px;
-    color:#383835;
-    width: 400px;
-    font-family: Inter;
-}
-
 a{
     text-decoration: none;
 }
