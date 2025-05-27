@@ -136,14 +136,15 @@ a{
 }
 
 #tcampus{
-    font-family: Inter;
-    font-size: 32px;
+  font-family: Inter;
+  font-size: 23px;
 }
 
 #tcrave{
-    font-size: 37px;
-    font-weight: normal;
-    letter-spacing: 4px;
+  font-size: 37px;
+  font-family: Instrument Serif;
+  font-weight: normal;
+  letter-spacing: 4px;
 }
 
 nav a{
