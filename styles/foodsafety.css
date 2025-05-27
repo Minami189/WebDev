@@ -1,168 +1,174 @@
-
 body{
-    margin: 0px;
-    background-color: #FFF5D0;
+  margin: 0px;
+  background-color: #FFF5D0;
 }
 
 header{
-    background-color: #838B58;
-    display:flex;
-    height: 132px;
-    align-items: center;
-    color:white;
-    position:sticky;
-    top:0px;
-    z-index: 5;
+  background-color: #838B58;
+  display: flex;
+  height: 132px;
+  align-items: center;
+  color:white;
+  position:sticky;
+  top:0px;
+  z-index: 5;
 }
 
-
 a{
-    text-decoration: none;
-    color:white;
+  text-decoration: none;
+  color:white;
 }
 
 .footer-column a{
-    text-decoration: none;
-    color:#464545;
+  text-decoration: none;
+  color:#464545;
 }
 
 #logo{
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 #logotitle{
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 #logotitle h1{
-    margin: 0px;
-    line-height: 27px
+  margin: 0px;
+  line-height: 27px
 }
 
 #tcampus{
-    font-family: Inter;
-    font-size: 23px;
+  font-family: Inter;
+  font-size: 1.4rem;
 }
 
 #tcrave{
-    font-size: 37px;
-    font-family: Instrument Serif;
-    font-weight: normal;
-    letter-spacing: 4px;
+  font-size: 2.3rem;
+  font-family: Instrument Serif;
+  font-weight: normal;
+  letter-spacing: 4px;
 }
 
 nav a{
-    font-size: 24px;
-    font-family: Inter;
-    font-weight: bold;
-    margin-left:25px;
+  font-size: 1.5rem;
+  font-family: Inter;
+  font-weight: bold;
+  margin-left:25px;
 }
 
 .section1 {
-  display: flex;
-  background-color: #82987E;
-  margin-top: -20px;
+display: flex;
+background-color: #82987E;
+margin-top: -20px;
 }
 
 .section1 h1{
-  color: white;
-  font-family: Inter, serif;
-  font-size: 80px;
-  margin: 140px 0 0 150px;
-  line-height: 80px;
+color: white;
+font-family: Inter, serif;
+font-size: 5rem;
+text-align: left;
+line-height: 1;
+margin-top: 10rem;
+margin-bottom: 0;
+margin-left: 10rem;
+margin-right: 5rem;
 }
 
 .section1 p{
-  color: white;
-  font-family: Gantari, serif;
-  font-weight: normal;
-  font-size: 24px;
-  margin: 400px 0 0 -740px;
+color: white;
+font-family: Gantari, serif;
+font-weight: normal;
+font-size: 1.5rem;
+text-align: left;
+margin-top: 0;
+margin-left: 10rem;
+margin-right: 5rem;
 }
 
 .section1 img{
-  background-color: #AEBC98;
-  display: block;
-  margin-left: auto;
-  height: 700px;
-  width: 770px;
+background-color: #AEBC98;
+display: block;
+margin-left: auto;
+height: 700px;
+width: 770px;
 }
 
 .section2 {
-  display: flex;
-  background-color: #FFF5D0;
-  flex-direction: row;
+display: flex;
+background-color: #FFF5D0;
+flex-direction: row;
 }
 
 .section2-text {
-  padding-top: 120px;
-  margin: 80px 0 0 150px;
-  display: flex;
-  flex-direction: column;
+padding-top: 120px;
+display: flex;
+flex-direction: column;
+margin-right: 10rem;
+margin-left: 5rem;
 }
 
 .section2 h1 {
-  color: #686868;
-  font-family: Inter, serif;
-  font-size: 80px;
-  text-align: right;
-  margin: 0 0 20px 0;
-  line-height: 65px;
+color: #686868;
+font-family: Inter, serif;
+font-size: 5rem;
+text-align: right;
+line-height: 1;
+margin-top: 5rem;
+margin-bottom: 0;
 }
 
 .section2-text p {
-  color: #686868;
-  text-align: right;
-  font-family: Gantari, serif;
-  font-weight: normal;
-  font-size: 26px;
-  margin-top: 10px;
-  max-width: 640px;
+color: #686868;
+text-align: right;
+font-family: Gantari, serif;
+font-weight: normal;
+font-size: 1.5rem;
+margin-top: 0;
 }
 
 .section2 img{
-  display: block;
-  margin: 60px 0 60px 90px;
-  height: 500px;
-  width: 925px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+display: block;
+margin: 60px 0 60px 90px;
+height: 500px;
+width: 925px;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .section3 {
-  display: flex;
-  background-color: #82987E;
-  margin-top: -20px;
+display: flex;
+background-color: #82987E;
+margin-top: -20px;
 }
 
 .section3-text {
-  margin: 60px 0 0 100px;
-  display: flex;
-  flex-direction: column;
+margin: 60px 0 0 100px;
+display: flex;
+flex-direction: column;
 }
 
 .section3 h1{
-  color: white;
-  font-family: Inter, serif;
-  font-size: 80px;
-  margin: 140px 0 0 150px;
-  line-height: 90px;
+color: white;
+font-family: Inter, serif;
+font-size: 80px;
+margin: 140px 0 0 150px;
+line-height: 90px;
 }
 
 .section3 p{
-  color: white;
-  text-align: justify;
-  font-family: Gantari, serif;
-  font-weight: normal;
-  font-size: 24px;
-  margin: 20px 130px 0 80px;
+color: white;
+text-align: justify;
+font-family: Gantari, serif;
+font-weight: normal;
+font-size: 24px;
+margin: 20px 130px 0 80px;
 }
 
 .section3 img{
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #AEBC98;
-  display: block;
-  height: 600px;
-  width: 770px;
+padding-top: 100px;
+padding-bottom: 100px;
+background-color: #AEBC98;
+display: block;
+height: 600px;
+width: 770px;
 }
