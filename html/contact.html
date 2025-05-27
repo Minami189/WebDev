@@ -30,48 +30,41 @@
         </nav>
     </header>
    
-    
-    
-        <div>
-            <h1>Wanna Join The <span class="highlight">Team?</span></h1>
-            <form>
-                <label for="fullname"><h3><strong>Full Name*</strong></h3></label>
-                <br>
-                <input type="text" id="fullname" name="fullname" placeholder="Enter your Full Name..." required>
-                <label for="email"><h3><strong>Email Address*</strong></h3></label>
-                <br>
-                <input type="email" id="email" name="email" placeholder="Enter your Email Address..." required>
-                 <br>
-                <label for="contact"><h3><strong>Contact Number*</strong></h3></label>
-                <br>
-                <input type="tel" id="contact" name="contact" placeholder="Enter your Contact Number..." required>
-                <br>
-                <label for="message"><h3><strong>Message*</strong></h3></label>
-                <br>
-                <textarea id="message" name="message" placeholder="Enter your Message Here..." required></textarea>
-            </form>
-        </div>
+    <div class="title-header">
+          <h1>Wanna Join The Team?</h1>
+    </div>
+    <div class="contact-newsletter">
+    <div class="left-column">
+      <form class="form-left" action="mailto:troy.arcilla.pineda@gmail.com" method="POST" enctype="text/plain">
+        <label for="fullname">Full Name*</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your Full Name..." required>
 
-        <div>
-            <h2>Join our newsletter</h2>
-            <p>
-                Hungry for updates? Enter your details below and get the latest on the tasty eats, student favorites, 
-                newly discovered food spots, and exclusive DHVSU Campus Crave picks straight to your inbox. 
-                Just tasty tips and food finds worth reading. Because missing out on good food? That we couldn’t imagine. 
-                Tasty Cravings. Clean. Safe. Student Approved. Join the Campus Crave newsletter now.
-            </p>
-            <form>
-                <label for="newsletter-email">Email Address*</label>
-                <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Enter your Email Address..." required>
-                <button type="submit">Sign Up →</button>
-            </form>
-            <div>
-                <p><strong>Alternatively Contact us At:</strong></p>
-                <p>info@campuscraves.com</p>
-                <p>+63 982 274 9271</p>
-                <p>182 Running St. Bacolor, Pampanga</p>
-            </div>
-        </div>
+        <label for="email">Email Address*</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email Address..." required>
+
+        <label for="contact">Contact Number*</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter your Contact Number..." required>
+
+        <label for="message">Message*</label>
+        <textarea id="message" name="message" rows="5" placeholder="Enter your Message Here..." required></textarea>
+    </div>
+
+    <div class="right-column">
+      <p>
+       We're always looking for passionate, creative, and driven individuals to be part of the Campus Crave community. 
+       Whether you're into food, marketing, design, or just love connecting with people, there's a place for you on our team.
+        Send us your details and a short message—let's create something awesome together!
+      </p>
+      <label for="submit"><input type="submit" class="green-button" value="Submit"></label>
+</form>
+      <div class="contact-info">
+        <p><strong>Alternatively Contact us At:</strong></p>
+        <p>info@campuscraves.com</p>
+        <p>+63 982 274 9271</p>
+        <p>182 Running St. Bacolor, Pampanga</p>
+      </div>
+    </div>
+  </div>
    
 
 

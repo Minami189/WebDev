@@ -2,6 +2,11 @@
 body{
     margin: 0px;
     background-color: #FFF5D0;
+    font-family: Inter;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2d2d2d;
 }
 
 header{
@@ -26,6 +31,125 @@ a{
 
 #logo{
     margin-left: 25px;
+
+}
+
+.title-header{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Instrument serif;
+}
+.title-header h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 128px;
+    color: 070707;
+}
+
+.contact-newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 6rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+}
+
+.left-column h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.left-column h1 span {
+  color: #868069;
+  font-weight: 300;
+}
+
+.form-left label,
+.newsletter-form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px 12px;
+    border: none;
+    background-color: #D4CCB0;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none;
+}
+
+textarea{
+    width: 100%;
+    height: 12rem;
+    border: none;
+    background-color: #D4CCB0;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none;
+}
+
+.newsletter-form {
+    margin-top: 1rem;
+}
+
+
+.contact-info {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.right-column p{
+    font-family: inter;
+    font-size: 24px;
+    padding-top: 1rem;
+}
+
+.contact-info p{
+    text-align: left;
+    padding-right:7rem;
+    margin-top: -19px;
+    padding: 0;
+    font-family: inter;
+    font-size: 15px;
+    padding-top: 1rem;
+}
+
+.left-column h1 {
+    font-size: 2.4rem;
+  }
+
+.green-button {
+    margin-top: 0;
+    background-color: #5d7754; 
+    color: white;
+    width: 100%;
+    padding: 2rem 3rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.green-button:hover {
+  background-color: #4b6244;
 }
 
 #logotitle{
