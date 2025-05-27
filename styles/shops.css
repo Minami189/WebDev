@@ -123,7 +123,9 @@ header{
 }
 
 .title-container h1{
-  padding-left: 3rem;
+  font-family: Inter;
+  padding-left: 6rem;
+  color: #383835;
 }
 
 b.green{
