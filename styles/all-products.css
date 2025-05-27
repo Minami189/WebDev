@@ -17,92 +17,6 @@ header{
     z-index: 5;
 }
 
-.footer {
-  background-color: #D1D2A6;
-  color: #4b6b46;
-  font-family: 'Arial', sans-serif;
-}
-
-.footer-top {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-}
-
-.footer-logo {
-  width: 60px;
-  height: auto;
-}
-
-.footer-brand h2 {
-  font-size: 24px;
-  margin: 0;
-  font-weight: bold;
-}
-
-.footer-brand .campus {
-  color: #3f583b;
-}
-
-.footer-brand .crave {
-  color: #3f583b;
-  letter-spacing: 2px;
-}
-
-.footer-divider {
-  margin-right: 60px;
-  margin-left: 60px;
-  margin-bottom: 10px;
-  border: none;
-  height: 1px;
-  background-color: #86ab81;
-}
-
-.footer-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 75px;
-  margin-right: 75px;
-  margin-bottom: 30px;
-}
-
-.footer-column {
-  flex: 1 1 200px;
-  margin-bottom: 20px;
-}
-
-.footer-column h4 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-column ul li,
-.footer-column p {
-  font-size: 14px;
-  margin-bottom: 6px;
-}
-
-.footer-bottom {
-  background-color: #6f7844;
-  color: #f0f0d8;
-  text-align: left;
-  padding: 10px;
-  font-size: 14px;
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
 .second-nav {
     background-color: #8D704F;
     display: block;
@@ -136,14 +50,15 @@ a{
 }
 
 #tcampus{
-    font-family: Inter;
-    font-size: 32px;
+  font-family: Inter;
+  font-size: 23px;
 }
 
 #tcrave{
-    font-size: 37px;
-    font-weight: normal;
-    letter-spacing: 4px;
+  font-size: 37px;
+  font-family: Instrument Serif;
+  font-weight: normal;
+  letter-spacing: 4px;
 }
 
 nav a{
