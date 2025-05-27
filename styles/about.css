@@ -71,12 +71,12 @@ nav a{
 .aboutsection1{
     display:flex;
     background-color: #82987E;
-    height:800px;
+    height:713px;
 }
 
 .aboutsection2{
     background-color: #FFF5D0;
-    height:900px;
+    height:713px;
     display:flex;
 }
 
@@ -120,8 +120,12 @@ p{
 .aboutsection2 .subhead,
 .aboutsection2 p{
     color: rgb(39, 39, 39);
-    
 }
+
+.aboutsection2 p{
+    margin-top: -25px;
+}
+
 
 .aboutsection2 .subhead{
     text-align: right;
