@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
     background-color: #FFF5D0;
@@ -94,6 +96,24 @@ nav a{
     color:#383835;
 }
 
+#hobjecttive{
+    padding-top: 10rem;
+    padding-right: 10rem;
+    font-size: 213px;
+    font-family: Instrument Serif;
+    font-weight: normal;
+    color:#383835;
+}
+
+.heroparagraph2{
+    font-size: 1.4rem;
+    font-family: inter;
+    text-align: left;
+    width: 38rem;
+    padding-left: 0.75rem;
+}
+
+
 .hero .hero1 pre{
     margin-top: 0px;
     padding: 0px;
@@ -107,6 +127,14 @@ nav a{
     height: 790px;
     margin-top: -250px;
 }
+
+.hero2 img{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: auto;
+}
+
 
 .hero button{
     font-family: Inter;
@@ -122,6 +150,84 @@ nav a{
 button:hover{
     cursor: pointer;
 }
+
+.hero3 {
+  scroll-snap-align: start;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-grid h2{
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+    font-size: 3rem;
+
+}
+.image-grid p{
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+.image-card {
+  position: relative;
+  height: 640px;
+  width: 400px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 1s ease;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+  transition: filter 1s ease, transform 1s ease;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.image-card .overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image-card:hover img {
+  transform: scale(1.1);
+}
+
+.image-card:hover .overlay {
+  opacity: 1;
+}
+
 
 #explorebtn{
     background-color: #838B58;
