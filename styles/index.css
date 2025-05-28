@@ -106,8 +106,9 @@ nav a{
 }
 
 .heroparagraph2{
+    color: #383835;
     font-size: 1.4rem;
-    font-family: inter;
+    font-family: Inter;
     text-align: left;
     width: 38rem;
     padding-left: 0.75rem;
