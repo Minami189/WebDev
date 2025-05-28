@@ -4,15 +4,17 @@ body{
     background-color: #FFF5D0;
 }
 
-header{
+header {
     background-color: #838B58;
-    display:flex;
-    height: 132px;
+    display: flex;
     align-items: center;
-    color:white;
-    position:sticky;
-    top:0px;
+    height: 132px;
+    color: white;
+    position: sticky;
+    top: 0px;
     z-index: 5;
+    padding: 0 25px;
+    padding-right:75px;
 }
 
 .devs{
@@ -24,12 +26,12 @@ a{
     color:white;
 }
 
-#logo{
-    margin-left: 25px;
+#logo {
+    margin-right: 20px;
 }
 
-#logotitle{
-    margin-right: 25px;
+#logotitle {
+    margin-right: auto;
 }
 
 #logotitle h1{
@@ -47,6 +49,11 @@ a{
     font-family: Instrument Serif;
     font-weight: normal;
     letter-spacing: 4px;
+}
+
+nav{
+    display:flex;
+    gap: 25px;
 }
 
 nav a{
